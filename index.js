@@ -1,5 +1,12 @@
 const { Client, Events, GatewayIntentBits } = require('discord.js');
+const express = require('express');
+const app = express();
+const port = 3000;
 require('dotenv').config();
+ 
+app.get('/', function(request, response){ response.send(`Monitor is active. Local: http://localhost:${port}`); });
+app.listen(port, () => console.log());
+
 
 const client = new Client({
     intents: [
