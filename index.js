@@ -24,8 +24,7 @@ const client = new Client({
 
 
 client.once(Events.ClientReady, () => {
-    console.log(`Bot  ${client.user.tag} runned!`);
-
+    console.log(`Bot  ${client.user.tag} runned successfully!`);
     try {
         client.application.commands.create({
             name: 'claim',
