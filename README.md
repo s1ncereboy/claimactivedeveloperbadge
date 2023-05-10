@@ -4,7 +4,7 @@ Simple discord bot which has one slash command (/claim).
 
 [Create application of discord bot.](https://discord.com/developers/applications/)
 
-[Title about how to get badg.](https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge)
+[Title about how to get badge.](https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge)
 
 [Link to get Active Developer Badge.](https://discord.com/developers/active-developer)
 
